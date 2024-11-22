@@ -1,5 +1,3 @@
-# Criando o README para o teste JSON
-json_readme_content = """
 # Testes de API - JSONPlaceholder
 
 Este repositório contém os testes desenvolvidos utilizando a API pública **JSONPlaceholder**. O objetivo foi realizar diferentes cenários de testes em uma API REST, incluindo casos positivos e negativos, utilizando ferramentas como Postman e Newman.
