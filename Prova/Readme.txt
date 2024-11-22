@@ -1,5 +1,3 @@
-# Criando o arquivo README.txt com o conteúdo fornecido
-readme_content = """
 # Prova - Teste de API com Postman e Cypress
 
 Este repositório contém a solução da prova de **Teste de API**, desenvolvida em dupla por **Álvaro Sampaio** e **Rômulo Coutinho**, conforme o enunciado da avaliação. O trabalho foi dividido em duas partes: testes realizados com **Postman** e testes realizados com **Cypress**, cada qual documentado e organizado em suas respectivas pastas.
