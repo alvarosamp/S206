@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "46cc54f7-aca0-41ec-8b0e-370764efde96",
+		"name": "Lista",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37237682"
+	},
+	"item": [
+		{
+			"name": "NomeUnico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL3}}name=Alvaro",
+					"host": [
+						"{{URL3}}name=Alvaro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NomesMultiplos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL3}}name[]=Ana&name[]=Carlos",
+					"host": [
+						"{{URL3}}name[]=Ana&name[]=Carlos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nome+País",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL3}}name=Maria&country_id=BR",
+					"host": [
+						"{{URL3}}name=Maria&country_id=BR"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Faltadeparametro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL3}}name=",
+					"host": [
+						"{{URL3}}name="
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NomeInvalido",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL3}}name=AdrianoImperador",
+					"host": [
+						"{{URL3}}name=AdrianoImperador"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NomeNovo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL3}}name[]=Juan&name[]=Giovanni&name[]=Hiroshi",
+					"host": [
+						"{{URL3}}name[]=Juan&name[]=Giovanni&name[]=Hiroshi"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
